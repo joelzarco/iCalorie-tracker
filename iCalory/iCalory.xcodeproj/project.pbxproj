@@ -13,6 +13,7 @@
 		954A9A782A6623FD00C2B622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954A9A772A6623FD00C2B622 /* Preview Assets.xcassets */; };
 		954A9A812A6624D200C2B622 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 954A9A7F2A6624D200C2B622 /* FoodModel.xcdatamodeld */; };
 		954A9A832A66259700C2B622 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954A9A822A66259700C2B622 /* DataController.swift */; };
+		95795D4D2A6732B0004CC279 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95795D4C2A6732B0004CC279 /* AddFoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		954A9A772A6623FD00C2B622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		954A9A802A6624D200C2B622 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		954A9A822A66259700C2B622 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		95795D4C2A6732B0004CC279 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				954A9A702A6623FB00C2B622 /* iCaloryApp.swift */,
-				954A9A722A6623FB00C2B622 /* ContentView.swift */,
+				95795D4B2A673277004CC279 /* Views */,
 				954A9A7E2A6624A000C2B622 /* DataModel */,
 				954A9A742A6623FD00C2B622 /* Assets.xcassets */,
 				954A9A762A6623FD00C2B622 /* Preview Content */,
@@ -79,6 +81,15 @@
 				954A9A822A66259700C2B622 /* DataController.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		95795D4B2A673277004CC279 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				954A9A722A6623FB00C2B622 /* ContentView.swift */,
+				95795D4C2A6732B0004CC279 /* AddFoodView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95795D4D2A6732B0004CC279 /* AddFoodView.swift in Sources */,
 				954A9A732A6623FB00C2B622 /* ContentView.swift in Sources */,
 				954A9A832A66259700C2B622 /* DataController.swift in Sources */,
 				954A9A712A6623FB00C2B622 /* iCaloryApp.swift in Sources */,
