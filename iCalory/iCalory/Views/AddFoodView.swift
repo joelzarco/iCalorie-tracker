@@ -29,6 +29,7 @@ struct AddFoodView: View {
                     Spacer()
                     Button("Submit"){
                         DataController().addFood(name: name, calories: calories, context: managedObjectContext)
+                        dismiss()
                     }
                     Spacer()
                 } //hs
