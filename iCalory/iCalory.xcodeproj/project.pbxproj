@@ -15,6 +15,7 @@
 		954A9A832A66259700C2B622 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954A9A822A66259700C2B622 /* DataController.swift */; };
 		95795D4D2A6732B0004CC279 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95795D4C2A6732B0004CC279 /* AddFoodView.swift */; };
 		95795D4F2A6737F7004CC279 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95795D4E2A6737F7004CC279 /* Helpers.swift */; };
+		95AA06BD2A688B6000228744 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA06BC2A688B6000228744 /* EditFoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		954A9A822A66259700C2B622 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		95795D4C2A6732B0004CC279 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		95795D4E2A6737F7004CC279 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		95AA06BC2A688B6000228744 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				954A9A722A6623FB00C2B622 /* ContentView.swift */,
 				95795D4C2A6732B0004CC279 /* AddFoodView.swift */,
+				95AA06BC2A688B6000228744 /* EditFoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				954A9A732A6623FB00C2B622 /* ContentView.swift in Sources */,
 				954A9A832A66259700C2B622 /* DataController.swift in Sources */,
 				954A9A712A6623FB00C2B622 /* iCaloryApp.swift in Sources */,
+				95AA06BD2A688B6000228744 /* EditFoodView.swift in Sources */,
 				954A9A812A6624D200C2B622 /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

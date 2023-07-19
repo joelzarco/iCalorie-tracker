@@ -23,7 +23,7 @@ struct ContentView: View {
                 
                 List{
                     ForEach(food){food in
-                        NavigationLink(destination : Text("\(food.calories)")){
+                        NavigationLink(destination : EditFoodView(food: food)){
                             HStack{
                                 VStack(alignment: .leading) {
                                     Text(food.name!)
